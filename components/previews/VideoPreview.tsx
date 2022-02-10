@@ -49,7 +49,7 @@ const VideoPreview: React.FC<{ file: OdFileObject }> = ({ file }) => {
             className="aspect-video"
             options={{
               volume: 1.0,
-              lang: 'cn',
+              lang: 'zh-cn',
               video: {
                 url: file['@microsoft.graph.downloadUrl'],
                 pic: thumbnail,
@@ -66,7 +66,7 @@ const VideoPreview: React.FC<{ file: OdFileObject }> = ({ file }) => {
                 },
               },
               danmaku: {
-                  addition: ['../XML/url'],
+                  addition: ['../XML/url.xml'],
               },
               subtitle: { url: subtitle },
             }}
