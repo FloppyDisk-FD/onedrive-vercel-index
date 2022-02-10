@@ -66,7 +66,7 @@ const VideoPreview: React.FC<{ file: OdFileObject }> = ({ file }) => {
                 },
               },
               danmaku: {
-                  addition: ['../XML/url.xml'],
+                  addition: ['url: subtitle'],
               },
               subtitle: { url: subtitle },
             }}
