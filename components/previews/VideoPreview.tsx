@@ -66,7 +66,7 @@ const VideoPreview: React.FC<{ file: OdFileObject }> = ({ file }) => {
                 },
               },
               danmaku: {
-                  addition: ['url: subtitle'],
+                  addition: file['@microsoft.graph.downloadUrl'],
               },
               subtitle: { url: subtitle },
             }}
