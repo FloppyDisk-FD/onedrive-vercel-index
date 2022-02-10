@@ -14,7 +14,7 @@ module.exports = {
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "Spencer's OneDrive",
+  title: "ENIAC Rec",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/',
@@ -53,7 +53,7 @@ module.exports = {
       link: 'https://github.com/spencerwooo/onedrive-vercel-index',
     },
     {
-      name: 'Bilibili',
+      name: 'Telegram',
       link: 'https://space.bilibili.com/1733502176',
     },
   ],
