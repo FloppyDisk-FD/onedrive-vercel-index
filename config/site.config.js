@@ -53,7 +53,7 @@ module.exports = {
       link: 'https://github.com/spencerwooo/onedrive-vercel-index',
     },
     {
-      name: 'Bilibili',
+      name: 'bilibili',
       link: 'https://space.bilibili.com/1733502176',
     },
   ],
