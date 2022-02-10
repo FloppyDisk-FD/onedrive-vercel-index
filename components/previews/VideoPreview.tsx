@@ -49,7 +49,7 @@ const VideoPreview: React.FC<{ file: OdFileObject }> = ({ file }) => {
             className="aspect-video"
             options={{
               volume: 1.0,
-              lang: 'n',
+              lang: 'cn',
               video: {
                 url: file['@microsoft.graph.downloadUrl'],
                 pic: thumbnail,
